@@ -147,6 +147,7 @@ ramips_setup_interfaces()
 	rt-n14u|\
 	ubnt-erx|\
 	ur-326n4g|\
+	wd03|\
 	wrtnode|\
 	wrtnode2p | \
 	wrtnode2r | \

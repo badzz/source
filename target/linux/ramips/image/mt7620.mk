@@ -365,6 +365,14 @@ define Device/gl-mt300n
 endef
 TARGET_DEVICES += gl-mt300n
 
+define Device/wd03
+  DTS := WD03
+  IMAGE_SIZE := $(ralink_default_fw_size_8M)
+  DEVICE_TITLE := Ravpower WD03
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci kmod-mt76
+endef
+TARGET_DEVICES += wd03
+
 define Device/gl-mt750
   DTS := GL-MT750
   IMAGE_SIZE := $(ralink_default_fw_size_16M)
